@@ -1,0 +1,230 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.cointainer{
+    width: 100%;
+    height: 100vh;
+    border-radius: 8px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    /* margin-right: -60px;
+    margin-top: -0.6rem; */
+  }
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 10px;
+    border-bottom: 0.5px solid #fdeaea
+    
+}
+
+.logo{
+    color: #818181;
+    font-size: 30px;
+    margin: 20px;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    
+}
+
+ul li a{
+    color: #818181;;
+    margin: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+ul li a:hover{
+    background-color: #4c54af;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.content{
+    margin-top: 200px;
+    margin-left: 106px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px;
+    
+}
+.btn:hover{
+    background-color: #555;
+}
+
+.person{
+    width: 80%;
+    border-radius: 30px;
+}
+
+.left {
+    flex: 1;
+}
+
+
+.right {
+    flex: 1;
+    margin-left: 20px; /* Add margin-left to create a gap */
+}
+
+.big-title {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: black;
+    text-transform: capitalize;
+    line-height: 1.4;
+  }
+
+  
+  .text {
+    color:#818181;
+    font-size: 1.1rem;
+    margin: 1.9rem 0 2.5rem;
+    max-width: 600px;
+    line-height: 2.3;
+  }
+ 
+
+  .links{
+    margin-bottom: 10px;
+  }
+
+  .work{
+     background-color: #818181;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+     width: 100%;
+     height: 100vh;
+     text-align: center;
+     margin-top: 85px;
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+
+
+.cards{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.cards img{
+    width: 80%;
+    height: 50%;
+}
+
+.card-cointainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px; 
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.experience {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #555;
+}
+
+.Meet{
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+}
+
+.card img{
+    width: 28%;
+    height: auto;
+}
+
+.card-text{
+    color: #333;
+    font-size: 16px;
+}
+
+.footer{
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    max-height: fit-content;
+    color: #fff;
+    border-radius: px;
+
+}
+
+h1,p{
+    margin: 5px;
+    
+}
+h4{
+    font-size: 24px;
+    color: #333;
+}
+
+ i{
+    width: 30px;
+    height: 20px;
+}
+
+.column{
+    margin: 20px 20px;
+}
+
+
+
+
+  
+  

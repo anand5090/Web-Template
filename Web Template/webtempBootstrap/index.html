@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document using bootstrap</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="./css/font-awesome.min.css" /> -->
+    <script src="./js/bootstrap.min.js"></script>
+    <style>
+      h1 {
+        font-size: 60px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .laptop {
+        width: 80%;
+        border-radius: 20px;
+      }
+
+      .margin {
+        margin-top: 116px;
+      }
+
+      .bg-1 {
+        background-color: #ffffff;
+        color: #555555;
+      }
+
+      .bg-2 {
+        background-color: #2f2f2f;
+        color: #fff;
+      }
+
+      /* .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        } */
+
+      .navbar {
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        color: #2f2f2f;
+      }
+
+      .navbar-nav li a:hover {
+        color: #1abc9c !important;
+      }
+
+      .card {
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 100px;
+        margin: 20px;
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+      }
+
+      .cards {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 100px;
+        margin: 20px;
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div>
+            <a class="navbar-brand" href="#"
+              ><img
+                src="./images/logo.png"
+                alt="logo"
+                style="height: 21px; width: 41px; margin-left: 25px"
+            /></a>
+            <a
+              class="navbar-brand"
+              href="#"
+              style="font-weight: bold; color: black"
+              >IdeaM5</a
+            >
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Showcase</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+          <ul
+            class="nav navbar-nav navbar-right"
+            style="margin-top: 8px; margin-right: 24px"
+          >
+            <li><button class="btn btn-primary">Sign up for free</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--  Hero Section   -->
+
+    <div class="cointainer-fluid">
+      <div class="row margin">
+        <div class="col-sm-6">
+          <div style="margin-left: 20px; margin-top: 100px">
+            <h1>Email Marketing Done</h1>
+            <h1>Right</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              corrupti fugit nostrum!
+            </p>
+            <button class="btn btn-primary">Sign up for free</button>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <img
+            src="./images/laptopbiker.jpg"
+            alt="Laptop"
+            style="width: 96%; border-radius: 20px"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Work With us Section -->
+
+    <div class="cointainer-fluid bg-2 text-center" style="margin-top: 140px">
+      <h2>Why Work With Us?</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quas
+        expedita necessitatibus aliquam ratione tempora hic doloribus
+        consequatur,nulla,wqerqrewqewqeqe suscipit voluptatum sint libero unde
+        aut.
+      </p>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="./images/experience.png" alt="Experience" />
+            <h4 class="text-muted"><strong>Experience</strong></h4>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+              aperiam cum omnis.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="./images/flexibility.png" alt="Experience" />
+            <h4 class="text-muted"><strong>Flexibility</strong></h4>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+              aperiam cum omnis.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="./images/result.png" alt="Experience" />
+            <h4 class="text-muted"><strong>Result</strong></h4>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing
+              elit.fddsgdssfdds Ea aperiam cum omnis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Meet Our Team Member -->
+
+    <div class="cointainer-fluid text-center">
+      <h2>Meet Our Team Members</h2>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="cards">
+            <img
+              src="./images/women.png"
+              alt="Women"
+              style="width: 80%; height: 50%"
+            />
+            <p><strong>Pamela Lopez</strong></p>
+            <p>CEO</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="cards">
+            <img
+              src="./images/male.png"
+              alt="Male"
+              style="width: 80%; height: 50%"
+            />
+            <p><strong>Pamela Lopez</strong></p>
+            <p>CEO</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="cards">
+            <img
+              src="./images/wo.png"
+              alt="Women"
+              style="width: 80%; height: 50%"
+            />
+            <p><strong>Pamela Lopez</strong></p>
+            <p>CEO</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="cointainer-fluid text-center bg-2">
+      <div class="row">
+        <div class="col-sm-3">
+          <h2>Digital Agency</h2>
+          <h5 class="text-muted"><strong>info@digitalagenecy.com</strong></h5>
+          <p class="text-muted">+1502-2536-1222</p>
+        </div>
+
+        <div class="col-sm-3">
+          <h4>Follow Us</h4>
+          <a href="#">
+            <p class="text-muted">
+              <i class="fa fa-twitter text-muted"></i> Twitter
+            </p>
+          </a>
+          <a href="#">
+            <p class="text-muted">
+              <i class="fa fa-facebook text-muted"></i> Facebook
+            </p>
+          </a>
+          <a href="#">
+            <p class="text-muted">
+              <i class="fa fa-instagram text-muted"></i> Instagram
+            </p>
+          </a>
+
+          <a href="#">
+            <p class="text-muted">
+              <i class="fa fa-youtube"></i>
+              YouTube
+            </p>
+          </a>
+        </div>
+
+        <div class="col-sm-3">
+          <h4>Copyright</h4>
+          <p class="text-muted">
+            <span class="glyphicon glyphicon-copyright-mark"
+              >DigitalAgency.Allrights</span
+            >
+          </p>
+          <p class="text-muted">reserved</p>
+          <p class="text-muted">
+            Design- <abbr title="Template">TemplateFlip</abbr>
+          </p>
+        </div>
+
+        <div class="col-sm-3">
+          <a href="#myNavbar"><i class="fa fa-chevron-circle-up"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
